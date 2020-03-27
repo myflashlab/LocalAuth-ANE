@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <application xmlns="http://ns.adobe.com/air/application/32.0">
   <id>com.doitflash.localAuth</id>
-  <versionNumber>0.0.21</versionNumber>
+  <versionNumber>1.0.0</versionNumber>
   <supportedProfiles>mobileDevice</supportedProfiles>
   <filename>exLocalAuth</filename>
   <name>Local Auth</name>
@@ -37,6 +37,9 @@
 		<!--iOS 10.0 or higher can support this ANE-->
 		<key>MinimumOSVersion</key>
 		<string>10.0</string>
+
+		<key>UILaunchStoryboardName</key>
+		<string>LaunchScreen</string>
 		 
 		<key>UIPrerenderedIcon</key>
 		<true/>
@@ -91,8 +94,8 @@
 	
 	<!-- dependency ANEs https://github.com/myflashlab/common-dependencies-ANE -->
 	<extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
-	<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.core</extensionID>
-	<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.v4</extensionID>
+	<extensionID>com.myflashlab.air.extensions.dependency.androidx.core</extensionID>
+	<extensionID>com.myflashlab.air.extensions.dependency.androidx.lifecycle</extensionID>
 
   </extensions>
 </application>
