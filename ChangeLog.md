@@ -1,6 +1,6 @@
 Local Authentication AIR Native Extension
 
-*Mar 14, 2020 - V1.0.0*
+*Apr 04, 2020 - V1.0.0*
 - Add androidx dependencies instead of android support libraries
 
 *Aug 04, 2019 - V0.0.21*

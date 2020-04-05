@@ -75,8 +75,8 @@ Embedding the ANE:
 	
 	<!-- dependency ANEs https://github.com/myflashlab/common-dependencies-ANE -->
 	<extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
-	<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.core</extensionID>
-	<extensionID>com.myflashlab.air.extensions.dependency.androidSupport.v4</extensionID>
+	<extensionID>com.myflashlab.air.extensions.dependency.androidx.core</extensionID>
+	<extensionID>com.myflashlab.air.extensions.dependency.androidx.lifecycle</extensionID>
   </extensions>
 -->
 ```
@@ -84,7 +84,7 @@ Embedding the ANE:
 # Requirements
 * Android API 19+
 * iOS SDK 10.0+
-* AIR SDK 31.0+
+* AIR SDK 33.0+
 
 # Commercial Version
 https://www.myflashlabs.com/product/local-auth-ane-adobe-air-native-extension/
